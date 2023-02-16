@@ -1,0 +1,17 @@
+Te shkruhet programi per gjetjen e numrit te njerezve te cilet kane te drejte vote dhe te cilet jane ndermjet moshave te paracaktuara ne Kosove.
+
+Informatat rreth programit:
+1. Te definohet klasa Shteti me keto atribute
+    te dhenat (variablat) -> emri dhe qytetet
+    sjelljet (funksionet) ->
+        public int numriIVotueseveNeShtet() dhe
+        public int numriIBanoreveNdermjetMoshes(moshaPrej, moshaDeri)
+
+2. Te definohet klasa Qyteti me keto atribute
+    te dhenat (variablat) -> emri dhe banoret
+
+3. Te definohet klasa Banori me keto atribute
+    te dhenat (variablat) -> mosha dhe eshteFemer
+
+4. Te gjenerohen objekte ne Main.java me te dhena per banore, qytete dhe shtet prej klasave te krijuara me larte.
+5. Te testohen dhe te printohen vlerat qe kthejn funksionet numriIVotueseveNeShtet() dhe  numriIBanoreveNdermjetMoshes(prej, deri).
